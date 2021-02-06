@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px
+}
+
+h1, h2,h3,h4 {
+
+}
+
+h1 {
+  font: 90px 'Gelasio', serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 3.5rem;
+}
+
+.header-logo {
+  font: 40px 'Gelasio', serif;
+  font-weight: bolder;
+}
+
+.basket{
+  color: #d8d8d8;
+  border: 1px #d8d8d8 solid;
+  padding: 1rem;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.hero {
+  
+}
+
+.hero-text,
+.hero-image {
+  /* width: 50%; */
+}
