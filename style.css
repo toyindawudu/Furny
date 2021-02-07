@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&display=swap');
+
 body {
-  font: 16px
+  font: 16px;
+  width: 1440px;
 }
 
 h1, h2,h3,h4 {
@@ -43,9 +46,9 @@ header {
 }
 
 .hero {
-  width: 1440px;
   display: flex;
   padding: 2rem;
+  margin: 10rem;
 }
 
 .hero-text,
@@ -54,7 +57,7 @@ header {
 }
 
 .hero-text {
-  width: 300px;
+  width: 330px;
   /* padding-left: 5rem; */
   margin: 0 auto;
 }
@@ -62,8 +65,38 @@ header {
 .hero-text h1 {
   padding-top: 2rem;
   line-height: 1.1;
+  letter-spacing: -2px;
+  font-size: 11rem;
+}
+
+.hero-subtext {
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
 }
 
 .hero-image img {
   max-width: 70%;
 }
+
+.hero-description {
+  width: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-price {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+button {
+  padding: 1rem;
+  font-style: italic;
+  font-size: 1.75rem;
+  color: #000;
+}
+
