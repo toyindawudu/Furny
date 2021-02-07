@@ -9,11 +9,17 @@ body {
 }
 
 h1, h2,h3,h4 {
-
+  margin: 0;
 }
 
 h1 {
   font: 90px 'Gelasio', serif;
+}
+
+.landing-page {
+  height: 100vh;
+  background-image: linear-gradient(90deg, white 58%, #dafefa 42%);
+  z-index: -98;
 }
 
 header {
@@ -29,18 +35,35 @@ header {
 }
 
 .basket{
-  color: #d8d8d8;
-  border: 1px #d8d8d8 solid;
-  padding: 1rem;
+  color: #000;
+  border: 1px #000 solid;
+  padding: .875rem;
   border-radius: 50%;
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 .hero {
-  
+  width: 1440px;
+  display: flex;
+  padding: 2rem;
 }
 
 .hero-text,
 .hero-image {
-  /* width: 50%; */
+  width: 50%;
+}
+
+.hero-text {
+  width: 300px;
+  /* padding-left: 5rem; */
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  padding-top: 2rem;
+  line-height: 1.1;
+}
+
+.hero-image img {
+  max-width: 70%;
 }
