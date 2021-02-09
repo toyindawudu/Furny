@@ -8,7 +8,7 @@
 
 body {
   font: 16px;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 h1, h2,h3,h4 {
@@ -48,7 +48,7 @@ header {
 .hero {
   display: flex;
   padding: 2rem;
-  margin: 10rem;
+  margin: 3rem;
 }
 
 .hero-text,
@@ -66,7 +66,7 @@ header {
   padding-top: 2rem;
   line-height: 1.1;
   letter-spacing: -2px;
-  font-size: 11rem;
+  font-size: 10rem;
 }
 
 .hero-subtext {
@@ -88,9 +88,8 @@ header {
 }
 
 .hero-price {
-  font-family: 'Lora', serif;
+  font: 3.2rem 'Lora', serif;
   font-weight: 700;
-  font-size: 3rem;
 }
 
 button {
