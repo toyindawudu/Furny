@@ -1,18 +1,5 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,700&display=swap');
 
-body {
-  font: 16px;
-  max-width: 1440px;
-  height: 100vh;
-  border:#dafefa 1px solid;
-  margin: auto;
-}
 
 h1, h2,h3,h4 {
   margin: 0;
@@ -24,6 +11,10 @@ p {
 
 h1 {
   font: 90px 'Gelasio', serif;
+}
+
+.container {
+  max-width: 1440px;
 }
 
 .landing-page {
@@ -54,6 +45,7 @@ header {
   border-radius: 50%;
   opacity: 0.8;
 }
+
 
 .hero {
   display: flex;
